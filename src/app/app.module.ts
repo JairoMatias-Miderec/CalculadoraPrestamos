@@ -5,9 +5,9 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CalculadoraComponent } from './componentes/calculadora/calculadora.component';
-import { ResultadosComponent } from './componentes/resultados/resultados.component';
-import { FooterComponent } from './componentes/footer/footer.component';
+import { CalculadoraComponent } from './components/calculadora/calculadora.component';
+import { ResultadosComponent } from './components/resultados/resultados.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [

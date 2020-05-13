@@ -1,16 +1,15 @@
-import { ResultadosComponent } from './componentes/resultados/resultados.component';
-import { CalculadoraComponent } from './componentes/calculadora/calculadora.component';
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-
+import { ResultadosComponent } from "./components/resultados/resultados.component";
+import { CalculadoraComponent } from "./components/calculadora/calculadora.component";
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
 
 const routes: Routes = [
-{path: '' , component: CalculadoraComponent },
-{path: 'resultados', component: ResultadosComponent}
+  { path: "", component: CalculadoraComponent },
+  { path: "resultados", component: ResultadosComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
